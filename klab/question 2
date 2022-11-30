@@ -1,0 +1,10 @@
+const item = [ {name: 'Bike', price:100}, {name: 'TV', price:200}, {name: 'Album', price:10}, {name: 'Book', price:5}, {name: 'Phone', price:500}, {name: 'Computer', price:1000}, ],
+
+to find cheap items using javascript
+const cheap=item.filter(item=> item.price<10);
+to find the expensive one 
+const expensive=item.filter(iter=>item.price>500);
+finding the total price
+
+removing product which is under 10 dollar
+item.
